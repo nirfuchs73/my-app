@@ -1,0 +1,11 @@
+<p>
+    <!-- dogs works! -->
+    <span *ngFor="let dog of dogs">
+        <span *ngIf="dog.name !== 'dan'">
+            {{dog.name}}
+            {{dog.age}}
+            {{dog.owner}}
+        </span>
+    </span>
+
+</p>
